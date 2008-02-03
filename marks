@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "enter your math marks"
+read math_marks
+
+if [ $math_marks -lt 33 ]
+then
+	echo "you fail"
+else
+	echo "you passed"
+fi	
+
+echo "enter your physic marks"
+read physic_marks
+
+if [ $physic_marks -lt 33 ]
+then 
+	echo "you fail"
+else
+	echo "you passed"
+fi
+
+echo "enter your science marks"
+read science_marks
+
+if [ $science_marks -lt 33 ]
+then
+echo "you fail"
+else
+	echo "you passed"
+fi

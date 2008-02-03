@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo ab dekh me kia karta hun...
+echo jldi sy apna name btao agr smjh me aya to rakh dunga warna dafa ho jao?
+read salmankhan
+if [ $salmankhan eq arham ]
+then
+	echo "g han passand agia muh yee"
+else 
+	echo "bilkul passand nhi"
+fi
